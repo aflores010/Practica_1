@@ -1,0 +1,229 @@
+/*
+HTML TAGS
+*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Catamaran';
+}
+header{
+    width: 100%;
+    /*Ancho*/
+}
+footer{
+    width: 100%;
+    padding: .5em 0 .5em;
+    text-align: center;
+}
+/*
+NAV
+*/
+.top-bar{
+    width: 100%;
+    padding: .5em 0 2em;
+    background: #202020;
+}
+.logo-resize{
+    width: 34px;
+    height: 26px;
+}
+.top-text{
+    display: inline;
+    margin: .5em 0 0 .5em;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #fff;
+}
+.text-label{
+    margin: 0 0 0 .5em;
+}
+
+/*
+INTRO
+*/
+.intro-section{
+    width: 100%;
+    padding: 5em 0;
+    background: url(../images/07.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    /*Parte de la imagen que se desea visualizar*/
+}
+.intro-title{
+    padding: 1em;
+    color: #fff;
+    font-weight: 900%;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.details-btn{
+    display: block;
+    width: 8em;
+    padding: 1em;
+    margin: 0 3em;
+    color: #fff;
+    background: #ff690f;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    /*Letras en mayúscula*/
+    text-decoration: none;
+}
+.offer-section{
+    padding: 2em 2em;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+.offer-title{
+    color: #333333;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+/*
+LESSONS
+*/
+.lessons-section{
+    margin: 3em;
+    background: #ffffff;
+    text-align: center;
+}
+.lessons-title{
+    padding: 0 3em;
+    color: #333333;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.lessons-text{
+    color: #2b2b2b;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.lessons-btn{
+    display: block;
+    width: 10em;
+    padding: .5em;
+    margin: auto;
+    border-radius: .2em;
+    background: #ff690f;
+    color: #fff;
+    text-align: center;
+    
+}
+
+/*
+The Mountains Snowboarding SCHOOL
+*/
+.img-resize{
+    width: 100%;
+    height: 50%;
+}
+.school-name{
+    padding: 0 2em;
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+/*
+STATISTICS
+*/
+.statistics-section{
+    margin: 0 5em;
+    background: #ffffff;
+}
+.happy-clients-num{
+    color: #ff690f;
+    font-weight: 900;
+    text-align: left;
+    font-size: 3em;
+}
+.happy-clients-text{
+    color: #2b2b2b;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1em
+}
+.reached-tops-num{
+    color: #ff690f;
+    font-weight: 900;
+    text-align: right;
+    font-size: 3em;
+}
+.reached-tops-text{
+    color: #2b2b2b;
+    font-weight: 400;
+    text-align: right;
+    font-size: 1em
+    
+}
+.professional-awards-num{
+    color: #ff690f;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3em;
+}
+.professional-awards-text{
+    color: #2b2b2b;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em
+}
+
+/*
+TESTIMONIALS
+*/
+.testimonials-section{
+    margin: 4em 5em;
+    background: #ffffff;
+    text-align: center;
+}
+.testimonials-title{
+    color: #000000;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+.testimonials-text{
+    color: #2b2b2b;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/*
+FOOTER
+*/
+.footer-section{
+    width: 100%;
+    padding: 11em 0;
+    background: url(../images/05.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.footer-title{
+    vertical-align: text-bottom;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 1em;
+    font-size: 4em;
+}
+.bottom-nav{
+    padding: 0;
+    margin: 0;
+}
+.bottom-nav-item{
+    display: inline-block;
+    margin: .5em 1.5em;
+}
+.footer-link{
+    margin: 15em 0 0 0;
+    color: #ffffff;
+    font-size: 1.5em;
+}
